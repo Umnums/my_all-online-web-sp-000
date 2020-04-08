@@ -7,6 +7,7 @@ def my_all?(collection)
   returnvalues << yield(collection[i])
    i += 1
  end
+ returnvalues
 end
 
 print(my_all?([1,2,3]) {|i| i < 2})
